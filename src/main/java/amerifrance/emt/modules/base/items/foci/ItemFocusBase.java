@@ -53,6 +53,10 @@ public class ItemFocusBase extends ItemFocusBasic {
     public AspectList getVisCost(ItemStack stack) {
         return visCost.copy();
     }
+    
+    public boolean isUseItem(ItemStack stack) {
+        return isVisCostPerTick(stack);
+    }
 
     @Override
     public String getSortingHelper(ItemStack stack) {
@@ -61,7 +65,9 @@ public class ItemFocusBase extends ItemFocusBasic {
 
     @Override
     public ItemStack onFocusRightClick(ItemStack stack, World world, EntityPlayer player, MovingObjectPosition mop) {
-        return stack;
+		if (isUseItem(stack))
+			player.setItemInUse(stack, Integer.MAX_VALUE);
+		return stack;
     }
 
     @Override
