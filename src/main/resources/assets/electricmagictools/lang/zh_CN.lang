@@ -1,0 +1,90 @@
+=============Creative Tab Name=============
+itemGroup.Electro-Magic Tools=电子魔法工具
+
+=============Thaumonomicon Tab Name=============
+tc.research_category.EMT=电子魔法工具
+
+=============Enity Names=============
+entity.Tombenpotter's Electro-Magic Tools.entityLaser.name=激光
+entity.Tombenpotter's Electro-Magic Tools.entityArcher.name=守护雪人
+
+=============Item Names=============
+item.thaumiumdrill.name=神秘电钻
+item.thaumiumchainsaw.name=神秘电锯
+item.quantumthaumichelmet.name=量子揭示护目镜
+item.diamondchainsaw.name=钻石电锯
+item.ironomnitool.name=铁制钻锯
+item.diamondomnitool.name=钻石钻锯
+item.thaumiumomnitool.name=神秘钻锯
+item.nanothaumichelmet.name=纳米揭示护目镜
+item.laserfocus.name=法杖核心：爆炸
+item.christmasfocus.name=法杖核心：圣诞
+item.shieldfocus.name=法杖核心：护盾
+item.electricgoggles.name=电子护目镜
+item.streamchainsaw.name=奔雷电锯
+item.rockbreakerdrill.name=破岩者电钻
+item.solarhelmetrevealing.name=太阳能揭示头盔
+item.hammerthor.name=雷神之锤
+item.taintedthorhammer.name=破损的雷神之锤
+item.electricthorhammer.name=高压雷神之锤
+item.electricboots.name=电子旅行者之靴
+item.nanobootstraveller.name=纳米旅行者之靴
+item.quantumbootstraveller.name=量子旅行者之靴
+item.electricscribingtools.name=电子笔墨
+item.electrichoeofgrowth.name=电子句芒锄
+item.chargefocus.name=法杖核心：充电
+item.itememtitems.oreClusterUranium=铀矿簇
+item.itememtitems.crushedOreAmber.name=粉碎琥珀矿
+item.itememtitems.purifiedOreAmber.name=纯净的粉碎琥珀矿
+item.itememtitems.crushedOreCinnabar.name=粉碎朱砂矿
+item.itememtitems.purifiedOreCinnabar.name=纯净的粉碎朱砂矿
+item.itememtitems.thaumiumPlate.name=神秘板
+item.itememtitems.lightningSummoner.name=雷电召唤者
+item.itememtitems.featherMesh.name=织羽
+item.itememtitems.glue.name=粘合剂
+item.itememtitems.ductTape.name=布基胶带
+item.itememtitems.rubberBall.name=橡胶球
+item.itememtitems.cardboard.name=硬纸板
+item.itememtitems.featherGluedCardboardWing.name=纸板羽翼
+item.itememtitems.denseIronSheet.name=致密铁片
+item.itememtitems.taintedFeather.name=腐化羽毛
+item.itememtitems.thaumiumWing.name=神秘增强翼
+item.emtbauble.euMaker.armor.name=装备充电戒指
+item.emtbauble.euMaker.inventory.name=物品充电戒指
+item.emtbauble.oneRing.name=魔戒
+item.wandchargefocus.name=法杖核心: 化魔
+item.featherwing.name=粘合纸板羽翼
+item.thaumiumwing.name=神秘翼
+item.nanowing.name=纳米翼
+item.quantumwing.name=量子翼
+
+=============Block Names=============
+tile.shield.name=盾方块
+tile.portablenode.name=便携式节点
+tile.essentiaGens.potentia.name=能量源质发电机
+tile.essentiaGens.ignis.name=火源质发电机
+tile.essentiaGens.auram.name=灵气源质发电机
+tile.essentiaGens.arbor.name=树木源质发电机
+tile.emtmachines.wandrecharge.name=工业法杖充能站
+tile.emtmachines.etheralprocessor.name=天域加工机
+tile.emtsolars.compressed.name=压缩太阳能
+tile.emtsolars.doublecompressed.name=双重压缩太阳能
+tile.emtsolars.triplecompressed.name=三重压缩太阳能
+tile.emtsolars.water.name=水注魔太阳能v1
+tile.emtsolars.doublewater.name=水注魔太阳能v2
+tile.emtsolars.triplewater.name=水注魔太阳能v3
+tile.emtsolars.dark.name=混沌注魔太阳能v1
+tile.emtsolars.doubledark.name=混沌注魔太阳能v2
+tile.emtsolars.tripledark.name=混沌压缩太阳能v3
+tile.emtsolars.order.name=秩序注魔太阳能v1
+tile.emtsolars.doubleorder.name=秩序注魔太阳能v2
+tile.emtsolars.tripleorder.name=秩序注魔太阳能v3
+tile.emtsolars.fire.name=火注魔太阳能v1
+tile.emtsolars.doublefire.name=火注魔太阳能v2
+tile.emtsolars.triplefire.name=火注魔太阳能v3
+tile.emtsolars.air.name=风注魔太阳能v1
+tile.emtsolars2.doubleair.name=风注魔太阳能v2
+tile.emtsolars2.tripleair.name=风注魔太阳能v3
+tile.emtsolars2.earth.name=地注魔太阳能v1
+tile.emtsolars2.doubleearth.name=地注魔太阳能v2
+tile.emtsolars2.tripleearth.name=地注魔太阳能v3
