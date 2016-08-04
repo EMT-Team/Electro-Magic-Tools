@@ -27,6 +27,10 @@ public class ItemFocusShield extends ItemFocusBase {
     public String getSortingHelper(ItemStack stack) {
         return "SHIELD";
     }
+    
+    public boolean isUseItem(ItemStack stack) {
+        return true;
+    }
 
     @Override
     public void onUsingFocusTick(ItemStack stack, EntityPlayer player, int time) {
@@ -39,7 +43,7 @@ public class ItemFocusShield extends ItemFocusBase {
             int x = MathHelper.floor_double(player.posX);
             int y = MathHelper.floor_double(player.posY);
             int z = MathHelper.floor_double(player.posZ);
-
+            
             // Player Level
             if (player.worldObj.isAirBlock(x + 1, y, z) && player.worldObj.isAirBlock(x - 1, y, z) && player.worldObj.isAirBlock(x, y, z + 1) && player.worldObj.isAirBlock(x, y, z - 1)) {
                 player.worldObj.setBlock(x + 1, y, z, BaseBlockRegistry.shieldBlock);
@@ -56,11 +60,8 @@ public class ItemFocusShield extends ItemFocusBase {
                 player.worldObj.setBlock(x, y + 1, z + 1, BaseBlockRegistry.shieldBlock);
                 player.worldObj.setBlock(x, y + 1, z - 1, BaseBlockRegistry.shieldBlock);
             }
-
-            // Underneath the player
-            if (player.worldObj.isAirBlock(x, y - 1, z)) {
-                player.worldObj.setBlock(x, y - 1, z, BaseBlockRegistry.shieldBlock);
-            }
+            ItemStack milk = (new ItemStack(Items.milk_bucket));
+            player.curePotionEffects(milk);
         }
     }
 
@@ -86,14 +87,6 @@ public class ItemFocusShield extends ItemFocusBase {
             player.worldObj.setBlockToAir(x, y + 1, z + 1);
             player.worldObj.setBlockToAir(x, y + 1, z - 1);
         }
-
-        // Underneath the player
-        if (player.worldObj.getBlock(x, y - 1, z) == BaseBlockRegistry.shieldBlock) {
-            player.worldObj.setBlockToAir(x, y - 1, z);
-        }
-
-        ItemStack milk = (new ItemStack(Items.milk_bucket));
-        player.curePotionEffects(milk);
     }
 
     @Override
